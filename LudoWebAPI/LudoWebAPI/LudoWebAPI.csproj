@@ -4,6 +4,7 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
     <UserSecretsId>25655f6a-a802-4d58-aa3c-6e81840bde07</UserSecretsId>
+    <ApplicationIcon>ico3.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
