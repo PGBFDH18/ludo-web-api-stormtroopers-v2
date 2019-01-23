@@ -6,25 +6,25 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace LudoWebAPI.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("ludo")]
     [ApiController]
     public class ValuesController : ControllerBase
     {
-        // GET api/values
-        [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        // GET /ludo
+        //[HttpGet]
+        //public ActionResult<IEnumerable<string>> Get()
+        //{
+        //    return new string[] {"List of Games"};
+        //}
+
+        // GET /values/5
+        [HttpGet("{id=23}")]
+        public string Get(int id)
         {
-            return new string[] { "value1", "value2" };
+            return $"ludo {id}";
         }
 
-        // GET api/values/5
-        [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
-        {
-            return "value";
-        }
-
-        // POST api/values
+        // POST /values
         [HttpPost]
         public void Post([FromBody] string value)
         {

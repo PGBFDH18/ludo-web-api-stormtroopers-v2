@@ -22,3 +22,4 @@ namespace LudoWebAPI
                 .UseStartup<Startup>();
     }
 }
+ 
