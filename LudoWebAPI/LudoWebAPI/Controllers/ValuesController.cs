@@ -18,7 +18,7 @@ namespace LudoWebAPI.Controllers
         //}
 
         // GET /values/5
-        [HttpGet("{id=23}")]
+        [HttpGet("{id?}")]
         public string Get(int id)
         {
             return $"ludo {id}";
