@@ -35,10 +35,10 @@ namespace LudoWebApiTest.Controllers
         [HttpGet("{id}", Name = "Get")]
         public LudoGameApi Get(int id)
         {
-           return new LudoGame[];
-            LudoGame game = new LudoGame(new Diece());
-            LudoGame game1 = new LudoGame(new Diece());
-            List<LudoGame> gameNmber1 = new List<LudoGame>();
+           //return new LudoGame[];
+           // LudoGame game = new LudoGame(new Diece());
+           // LudoGame game1 = new LudoGame(new Diece());
+           // List<LudoGame> gameNmber1 = new List<LudoGame>();
                 
                 
                 //LudoGameApi() { StateOfTheGame = game.ToString() };
