@@ -12554,11 +12554,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\wael.hasan\\Documents\\GitHub\\LudoTest\\LudoWebApiTest\\LudoWebApiTest\\LudoWebApiTest.csproj",
+      "projectUniqueName": "C:\\Users\\wael.hasan\\Documents\\GitHub\\ludo-web-api-stormtroopers-v2\\LudoWebApiTest\\LudoWebApiTest\\LudoWebApiTest.csproj",
       "projectName": "LudoWebApiTest",
-      "projectPath": "C:\\Users\\wael.hasan\\Documents\\GitHub\\LudoTest\\LudoWebApiTest\\LudoWebApiTest\\LudoWebApiTest.csproj",
+      "projectPath": "C:\\Users\\wael.hasan\\Documents\\GitHub\\ludo-web-api-stormtroopers-v2\\LudoWebApiTest\\LudoWebApiTest\\LudoWebApiTest.csproj",
       "packagesPath": "C:\\Users\\wael.hasan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\wael.hasan\\Documents\\GitHub\\LudoTest\\LudoWebApiTest\\LudoWebApiTest\\obj\\",
+      "outputPath": "C:\\Users\\wael.hasan\\Documents\\GitHub\\ludo-web-api-stormtroopers-v2\\LudoWebApiTest\\LudoWebApiTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12577,8 +12577,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\wael.hasan\\Documents\\GitHub\\LudoTest\\LudoWebApiTest\\LudoGameEngine\\LudoGameEngine\\LudoGameEngine.csproj": {
-              "projectPath": "C:\\Users\\wael.hasan\\Documents\\GitHub\\LudoTest\\LudoWebApiTest\\LudoGameEngine\\LudoGameEngine\\LudoGameEngine.csproj"
+            "C:\\Users\\wael.hasan\\Documents\\GitHub\\ludo-web-api-stormtroopers-v2\\LudoWebApiTest\\LudoGameEngine\\LudoGameEngine\\LudoGameEngine.csproj": {
+              "projectPath": "C:\\Users\\wael.hasan\\Documents\\GitHub\\ludo-web-api-stormtroopers-v2\\LudoWebApiTest\\LudoGameEngine\\LudoGameEngine\\LudoGameEngine.csproj"
             }
           }
         }

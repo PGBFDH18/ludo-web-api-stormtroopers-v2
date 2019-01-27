@@ -32,3 +32,11 @@ C:\Users\wael.hasan\Documents\GitHub\LudoTest\LudoWebApiTest\LudoWebApiTest\obj\
 C:\Users\wael.hasan\Documents\GitHub\LudoTest\LudoWebApiTest\LudoWebApiTest\obj\Debug\netcoreapp2.1\LudoWebApiTest.csproj.CopyComplete
 C:\Users\wael.hasan\Documents\GitHub\LudoTest\LudoWebApiTest\LudoWebApiTest\obj\Debug\netcoreapp2.1\LudoWebApiTest.dll
 C:\Users\wael.hasan\Documents\GitHub\LudoTest\LudoWebApiTest\LudoWebApiTest\obj\Debug\netcoreapp2.1\LudoWebApiTest.pdb
+C:\Users\wael.hasan\Documents\GitHub\ludo-web-api-stormtroopers-v2\LudoWebApiTest\LudoWebApiTest\obj\Debug\netcoreapp2.1\LudoWebApiTest.csprojAssemblyReference.cache
+C:\Users\wael.hasan\Documents\GitHub\ludo-web-api-stormtroopers-v2\LudoWebApiTest\LudoWebApiTest\obj\Debug\netcoreapp2.1\LudoWebApiTest.csproj.CoreCompileInputs.cache
+C:\Users\wael.hasan\Documents\GitHub\ludo-web-api-stormtroopers-v2\LudoWebApiTest\LudoWebApiTest\obj\Debug\netcoreapp2.1\LudoWebApiTest.RazorAssemblyInfo.cache
+C:\Users\wael.hasan\Documents\GitHub\ludo-web-api-stormtroopers-v2\LudoWebApiTest\LudoWebApiTest\obj\Debug\netcoreapp2.1\LudoWebApiTest.RazorAssemblyInfo.cs
+C:\Users\wael.hasan\Documents\GitHub\ludo-web-api-stormtroopers-v2\LudoWebApiTest\LudoWebApiTest\obj\Debug\netcoreapp2.1\LudoWebApiTest.AssemblyInfoInputs.cache
+C:\Users\wael.hasan\Documents\GitHub\ludo-web-api-stormtroopers-v2\LudoWebApiTest\LudoWebApiTest\obj\Debug\netcoreapp2.1\LudoWebApiTest.AssemblyInfo.cs
+C:\Users\wael.hasan\Documents\GitHub\ludo-web-api-stormtroopers-v2\LudoWebApiTest\LudoWebApiTest\obj\Debug\netcoreapp2.1\LudoWebApiTest.dll
+C:\Users\wael.hasan\Documents\GitHub\ludo-web-api-stormtroopers-v2\LudoWebApiTest\LudoWebApiTest\obj\Debug\netcoreapp2.1\LudoWebApiTest.pdb
