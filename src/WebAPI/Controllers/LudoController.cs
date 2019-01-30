@@ -16,7 +16,8 @@ namespace WebAPI.Controllers
     [Route("[Controller]")]
     public class LudoController : Controller
     {
-        
+        public object htmlpage { get; private set; }
+
         [HttpGet]
         public ContentResult Index()
         {
@@ -24,7 +25,7 @@ namespace WebAPI.Controllers
             {
                 ContentType = "text/html",
                 StatusCode = (int)HttpStatusCode.OK,
-                Content = "<html><body>Welcome to Ludo Games </body></html>"
+                Content = "<html><body> <center> Welcome to Ludo Game</center></body></html>"
             };
         }
 
