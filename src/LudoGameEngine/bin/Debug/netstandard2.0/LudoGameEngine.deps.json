@@ -1,0 +1,63 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": "d3101ba536f0b70a55f32938bb759889b4edaf5a"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "LudoGameEngine/1.0.0": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3",
+          "RestSharp": "106.6.7"
+        },
+        "runtime": {
+          "LudoGameEngine.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "RestSharp/106.6.7": {
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {
+            "assemblyVersion": "106.6.7.0",
+            "fileVersion": "106.6.7.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LudoGameEngine/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bLpT1f/SFlO1CzqXG12KnJzpZs6lv24uX2Rzi4Fmm0noJpNlnWRVryuO3yK18Ca04t/YHcO1e1Z0WDfjseqNzw==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "RestSharp/106.6.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9wSNg8crbSZwoxGx6W7rgYdbYyMea8GlwozwWqZU1raTbhP4UMyBhKt0RiJUIE2wZapKE1mBahOXqmOk+4jffg==",
+      "path": "restsharp/106.6.7",
+      "hashPath": "restsharp.106.6.7.nupkg.sha512"
+    }
+  }
+}
