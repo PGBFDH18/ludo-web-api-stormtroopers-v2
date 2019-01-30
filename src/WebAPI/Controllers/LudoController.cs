@@ -8,13 +8,25 @@ using LudoGameEngine;
 using WebAPI.Models;
 using System.Collections.Specialized;
 using System.Net;
+using System.Net.Http;
+using System.Net.Http.Headers;
 
 namespace WebAPI.Controllers
 {
-    [Route("api/[Controller]")]
+    [Route("[Controller]")]
     public class LudoController : Controller
-    { 
+    {
         
+        [HttpGet]
+        public ContentResult Index()
+        {
+            return new ContentResult
+            {
+                ContentType = "text/html",
+                StatusCode = (int)HttpStatusCode.OK,
+                Content = "<html><body>Welcome to Ludo Games </body></html>"
+            };
+        }
 
         public ILudoModel context;
         public LudoController(ILudoModel _context)
@@ -22,7 +34,7 @@ namespace WebAPI.Controllers
             context = _context;
         }
 
-        // POST: api/ludo/mkgame (This is creates new Game with an ID using GUID) 
+        // POST: ludo/mkgame (This is creates new Game with an ID using GUID) 
         [HttpPost("newludogame")]
         public IActionResult CreateNewGame()
         {
@@ -32,7 +44,7 @@ namespace WebAPI.Controllers
         }
 
         // DELETE: api/ludo/{IDofTheGame(GUID ID)}/regame (This is just REMOVE a game) 
-        [HttpDelete("{id}/remgame")]
+        [HttpDelete("{id}/deletgame")]
         public IActionResult RemoveGame(Guid id)
         {
             if (!context.RemoveGame(id))
@@ -45,7 +57,7 @@ namespace WebAPI.Controllers
             }
         }
 
-        // POST: api/ludo/{IDofTheGame(GUID ID)}/players/addplayer?name={input}&colorID={input<=1,4=>}
+        // POST: ludo/{IDofTheGame(GUID ID)}/players/addplayer?name={input}&colorID={input<=1,4=>}
         [HttpPost("{id}/players/addplayer")]
         public IActionResult AddPlayer(Guid id, string name, int colorID)
         {
@@ -59,7 +71,7 @@ namespace WebAPI.Controllers
             }
         }
 
-        // DELETE: api/ludo{{IDofTheGame(GUID ID)}/players
+        // DELETE: ludo{{IDofTheGame(GUID ID)}/players
         [HttpDelete("{id}/players")]
         public IActionResult RemovePlayer(Guid id, int colorID)
         {
@@ -71,14 +83,14 @@ namespace WebAPI.Controllers
             return Ok(new KeyValuePair<Guid, int>(id, colorID));
         }
 
-        // GET: api/Ludo/getallgames
+        // GET: ludo/getallgames
         [HttpGet("getallgames")]
         public IActionResult GetAllGames()
         {
             return Ok(context.GetAllGames());
         }
 
-        // GET: api/ludo/{{IDofTheGame(GUID ID)}/getgamedetails
+        // GET: ludo/{{IDofTheGame(GUID ID)}/getgamedetails
         [HttpGet("{id}/getgamedetails")]
         public IActionResult GetGameDetails(Guid id)
         {
@@ -90,7 +102,7 @@ namespace WebAPI.Controllers
             return Ok(context.GetGameDetail(id));
         }
 
-        // GET: api/ludo/{{IDofTheGame(GUID ID)}/players/getplayers
+        // GET: ludo/{{IDofTheGame(GUID ID)}/players/getplayers
         [HttpGet("{id}/players/getplayers")]
         public IActionResult GetAllPlayers(Guid id)
         {
@@ -102,7 +114,7 @@ namespace WebAPI.Controllers
             return Ok(context.GetAllPlayers(id));
         }
 
-        // GET: api/ludo/{{IDofTheGame(GUID ID)}/players?colorID={input}
+        // GET: ludo/{{IDofTheGame(GUID ID)}/players?colorID={input}
         [HttpGet("{id}/players")]
         public IActionResult GetPlayerDetails(Guid id, int colorID)
         {
@@ -114,7 +126,7 @@ namespace WebAPI.Controllers
             return Ok(context.GetPlayerDetails(id, colorID));
         }
 
-        // PUT: api/ludo/{{IDofTheGame(GUID ID)}/changeplayerdetails
+        // PUT: ludo/{{IDofTheGame(GUID ID)}/changeplayerdetails
         [HttpPut("{id}/changeplayerdetails")]
         public IActionResult ChangePlayerDetails(Guid id,int oldColorID, string name, int colorID)
         {
@@ -128,28 +140,28 @@ namespace WebAPI.Controllers
             return Ok(foo);
         }
 
-        // PUT: api/ludo/{{IDofTheGame(GUID ID)}/startgame
+        // PUT: ludo/{{IDofTheGame(GUID ID)}/startgame
         [HttpPut("{id}/startgame")]
         public IActionResult StartGame(Guid id)
         {
             return Ok(context.StartGame(id));
         }
 
-        // GET: api/ludo/{{IDofTheGame(GUID ID)}/rolldice
+        // GET: ludo/{{IDofTheGame(GUID ID)}/rolldice
         [HttpGet("{id}/rolldice")]
         public IActionResult RollDice(Guid id)
         {
             return Ok(context.RollDice(id));
         }
 
-        // PUT: api/ludo/{{IDofTheGame(GUID ID)}/movepiece
+        // PUT: ludo/{{IDofTheGame(GUID ID)}/movepiece
         [HttpPut("{id}/movepiece")]
         public IActionResult MovePiece(Guid id, int pieceId, int numberOfFields)
         {
             return Ok(context.MovePiece(id, pieceId, numberOfFields));
         }
 
-        // PUT: api/ludo/{{IDofTheGame(GUID ID)}/endturn
+        // PUT: ludo/{{IDofTheGame(GUID ID)}/endturn
         [HttpPut("{id}/endturn")]
         public IActionResult EndTurn(Guid id)
         {
@@ -157,7 +169,7 @@ namespace WebAPI.Controllers
             return Ok();
         }
 
-        // GET: api/ludo/{{IDofTheGame(GUID ID)}/getwinner
+        // GET: ludo/{{IDofTheGame(GUID ID)}/getwinner
         [HttpGet("{id}/getwinner")]
         public IActionResult GetWinner(Guid id)
         {
