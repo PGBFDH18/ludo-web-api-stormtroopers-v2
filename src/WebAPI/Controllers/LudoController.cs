@@ -29,7 +29,7 @@ namespace WebAPI.Controllers
             return Ok(guid);
         }
 
-        // DELETE: api/ludo/{IDofTheGame(GUID ID)}/removegame
+        // DELETE: api/ludo/{IDofTheGame(GUID ID)}/regame (This is just REMOVE a game) 
         [HttpDelete("{id}/remgame")]
         public IActionResult RemoveGame(Guid id)
         {
