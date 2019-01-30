@@ -13,7 +13,9 @@ namespace WebAPI.Controllers
 {
     [Route("api/[Controller]")]
     public class LudoController : Controller
-    {
+    { 
+        
+
         public ILudoModel context;
         public LudoController(ILudoModel _context)
         {
@@ -21,7 +23,7 @@ namespace WebAPI.Controllers
         }
 
         // POST: api/ludo/mkgame (This is creates new Game with an ID using GUID) 
-        [HttpPost("mkgame")]
+        [HttpPost("newludogame")]
         public IActionResult CreateNewGame()
         {
             Guid guid = context.AddGame();
