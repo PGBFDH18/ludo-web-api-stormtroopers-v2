@@ -20,8 +20,8 @@ namespace WebAPI.Controllers
             context = _context;
         }
 
-        // POST: api/ludo/createnewgame
-        [HttpPost("createnewgame")]
+        // POST: api/ludo/mkgame (This is creates new Game with an ID using GUID) 
+        [HttpPost("mkgame")]
         public IActionResult CreateNewGame()
         {
             Guid guid = context.AddGame();
@@ -30,7 +30,7 @@ namespace WebAPI.Controllers
         }
 
         // DELETE: api/ludo/{IDofTheGame(GUID ID)}/removegame
-        [HttpDelete("{id}/removegame")]
+        [HttpDelete("{id}/remgame")]
         public IActionResult RemoveGame(Guid id)
         {
             if (!context.RemoveGame(id))
