@@ -25,7 +25,10 @@ namespace WebAPI.Controllers
             {
                 ContentType = "text/html",
                 StatusCode = (int)HttpStatusCode.OK,
-                Content = "<html><body> <center> Welcome to Ludo Game</center></body></html>"
+                Content = "<html><body><center> " +
+                "<h1> Welcome to Ludo Game </h1>" +
+                "<br>Type This URL to Create A New Game:  https://localhost:44370/ludo/newludogame </br>" +
+                "</center></body></html>"
             };
         }
 
