@@ -1,0 +1,1 @@
+[![Build status](https://dev.azure.com/wael850224/LudoWebApi/_apis/build/status/LudoWebApi-ASP.NET%20Core-CI)](https://dev.azure.com/wael850224/LudoWebApi/_build/latest?definitionId=7)
