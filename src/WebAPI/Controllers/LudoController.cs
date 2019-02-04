@@ -155,8 +155,8 @@ namespace WebAPI.Controllers
             return Ok(context.StartGame(id));
         }
 
-        // GET: ludo/{{IDofTheGame(GUID ID)}/rolldice
-        [HttpGet("{id}/rolldice")]
+        // GET: ludo/{{IDofTheGame(GUID ID)}/throwdice
+        [HttpGet("{id}/throwdice")]
         public IActionResult RollDice(Guid id)
         {
             return Ok(context.RollDice(id));

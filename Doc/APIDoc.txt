@@ -38,8 +38,8 @@ PUT: To start a game
  https://localhost:44370/{id}/startgame
 
 
-GET: To roll the dice
- https://localhost:44370/{id}/rolldice
+GET: To throw the dice
+ https://localhost:44370/{id}/throwdice
 
 
 PUT: To move pieces in the game.
