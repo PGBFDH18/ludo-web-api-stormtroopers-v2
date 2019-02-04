@@ -28,8 +28,7 @@ namespace WebAPI.Controllers
                 Content =
                 "<html><body><center> " +
                 "<h1> Welcome to Ludo Game </h1>" +
-               // "<link type='text/html' href='/view.html' />" +
-              //  "<a href = \"/ludo/newludogame\"> Click here to Create new game! </a>" +
+              
 
                 "</center></body></html>"
             };
