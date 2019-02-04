@@ -16,7 +16,7 @@ namespace WebAPI.Controllers
     [Route("[Controller]")]
     public class LudoController : Controller
     {
-        public object htmlpage { get; private set; }
+        
 
         [HttpGet]
         public ContentResult Index()
@@ -25,13 +25,17 @@ namespace WebAPI.Controllers
             {
                 ContentType = "text/html",
                 StatusCode = (int)HttpStatusCode.OK,
-                Content = "<html><body><center> " +
+                Content =
+                "<html><body><center> " +
                 "<h1> Welcome to Ludo Game </h1>" +
-                "<br>Type This URL to Create A New Game:  https://localhost:44370/ludo/newludogame </br>" +
+               // "<link type='text/html' href='/view.html' />" +
+              //  "<a href = \"/ludo/newludogame\"> Click here to Create new game! </a>" +
+
                 "</center></body></html>"
             };
         }
-
+        //Set Cookie 
+        
         public ILudoModel context;
         public LudoController(ILudoModel _context)
         {
@@ -130,8 +134,8 @@ namespace WebAPI.Controllers
             return Ok(context.GetPlayerDetails(id, colorID));
         }
 
-        // PUT: ludo/{{IDofTheGame(GUID ID)}/changeplayerdetails
-        [HttpPut("{id}/changeplayerdetails")]
+        // PUT: ludo/{{IDofTheGame(GUID ID)}/changeplayer
+        [HttpPut("{id}/changeplayer")]
         public IActionResult ChangePlayerDetails(Guid id,int oldColorID, string name, int colorID)
         {
             var foo = context.ChangePlayerDetails(id, oldColorID, name, colorID);
@@ -165,8 +169,8 @@ namespace WebAPI.Controllers
             return Ok(context.MovePiece(id, pieceId, numberOfFields));
         }
 
-        // PUT: ludo/{{IDofTheGame(GUID ID)}/endturn
-        [HttpPut("{id}/endturn")]
+        // PUT: ludo/{{IDofTheGame(GUID ID)}/endgame
+        [HttpPut("{id}/endgame")]
         public IActionResult EndTurn(Guid id)
         {
             context.EndTurn(id);

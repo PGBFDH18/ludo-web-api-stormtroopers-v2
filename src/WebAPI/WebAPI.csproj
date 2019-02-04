@@ -20,4 +20,8 @@
   <ItemGroup>
     <ProjectReference Include="..\LudoGameEngine\LudoGameEngine.csproj" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="View\" />
+  </ItemGroup>
 </Project>
