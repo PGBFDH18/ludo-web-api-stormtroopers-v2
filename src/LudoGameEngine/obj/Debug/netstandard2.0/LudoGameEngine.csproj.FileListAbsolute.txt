@@ -16,3 +16,12 @@ C:\Users\wael.hasan\Documents\GitHub\ludo-web-api-stormtroopers-v2\src\LudoGameE
 C:\Users\wael.hasan\Documents\GitHub\ludo-web-api-stormtroopers-v2\src\LudoGameEngine\obj\Debug\netstandard2.0\LudoGameEngine.AssemblyInfo.cs
 C:\Users\wael.hasan\Documents\GitHub\ludo-web-api-stormtroopers-v2\src\LudoGameEngine\obj\Debug\netstandard2.0\LudoGameEngine.dll
 C:\Users\wael.hasan\Documents\GitHub\ludo-web-api-stormtroopers-v2\src\LudoGameEngine\obj\Debug\netstandard2.0\LudoGameEngine.pdb
+C:\Users\Programmers world\Documents\GitHub\ludo-web-api-stormtroopers-v2\src\LudoGameEngine\bin\Debug\netstandard2.0\LudoGameEngine.deps.json
+C:\Users\Programmers world\Documents\GitHub\ludo-web-api-stormtroopers-v2\src\LudoGameEngine\bin\Debug\netstandard2.0\LudoGameEngine.dll
+C:\Users\Programmers world\Documents\GitHub\ludo-web-api-stormtroopers-v2\src\LudoGameEngine\bin\Debug\netstandard2.0\LudoGameEngine.pdb
+C:\Users\Programmers world\Documents\GitHub\ludo-web-api-stormtroopers-v2\src\LudoGameEngine\obj\Debug\netstandard2.0\LudoGameEngine.csprojAssemblyReference.cache
+C:\Users\Programmers world\Documents\GitHub\ludo-web-api-stormtroopers-v2\src\LudoGameEngine\obj\Debug\netstandard2.0\LudoGameEngine.csproj.CoreCompileInputs.cache
+C:\Users\Programmers world\Documents\GitHub\ludo-web-api-stormtroopers-v2\src\LudoGameEngine\obj\Debug\netstandard2.0\LudoGameEngine.AssemblyInfoInputs.cache
+C:\Users\Programmers world\Documents\GitHub\ludo-web-api-stormtroopers-v2\src\LudoGameEngine\obj\Debug\netstandard2.0\LudoGameEngine.AssemblyInfo.cs
+C:\Users\Programmers world\Documents\GitHub\ludo-web-api-stormtroopers-v2\src\LudoGameEngine\obj\Debug\netstandard2.0\LudoGameEngine.dll
+C:\Users\Programmers world\Documents\GitHub\ludo-web-api-stormtroopers-v2\src\LudoGameEngine\obj\Debug\netstandard2.0\LudoGameEngine.pdb
