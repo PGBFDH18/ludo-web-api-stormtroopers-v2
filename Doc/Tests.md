@@ -2,24 +2,24 @@ Links to Ludo API
 
 
 POST: Create a new Ludo game with a GUID ID
- https://localhost:44370/ludo/newludogame
+ http://ludoapp.azurewebsites.net/ludo/newludogame
 
 
 DELETE: To delete a game wich is already created.
- https://localhost:44370/ludo/{id}/deletgame
+ http://ludoapp.azurewebsites.net/ludo/{id}/deletgame
 
 
 POST: To add players to existing game.
- https://localhost:44370/ludo/{id}/players/addplayer?name={input}&colorID={input<=1,4=>}
+ http://ludoapp.azurewebsites.net/ludo/{id}/players/addplayer?name={input}&colorID={input<=1,4=>}
 
 
 DELETE: To Delete players
- https://localhost:44370/ludo/{id}/players
+ http://ludoapp.azurewebsites.net/ludo/{id}/players
 
 
 
 GET: To all ctreated Games.
- https://localhost:44370/ludo/getallgames
+ http://ludoapp.azurewebsites.net/ludo/getallgames
 
 
 GET: To gat inforamtion about an existing game.
@@ -27,28 +27,28 @@ GET: To gat inforamtion about an existing game.
 
 
 GET:
- https://localhost:44370/ludo/{id}/players/getplayers/players?colorID={input}
+ http://ludoapp.azurewebsites.net/ludo/{id}/players/getplayers/players?colorID={input}
 
 
 PUT: To chane details of a game
- https://localhost:44370/ludo/{id}/changeplayer
+ http://ludoapp.azurewebsites.net/ludo/{id}/changeplayer
 
 
 PUT: To start a game
- https://localhost:44370/ludo/{id}/startgame
+ http://ludoapp.azurewebsites.net/ludo/{id}/startgame
 
 
 GET: To throw the dice
- https://localhost:44370/ludo/{id}/throwdice
+ http://ludoapp.azurewebsites.net/ludo/{id}/throwdice
 
 
 PUT: To move pieces in the game.
- https://localhost:44370/ludo/{id}/movepiece
+ http://ludoapp.azurewebsites.net/ludo/{id}/movepiece
 
 
 PUT: To end the game
- https://localhost:44370/ludo/{id}/endgame
+ http://ludoapp.azurewebsites.net/ludo/{id}/endgame
 
 
 GET: To get the winner of the game.
- https://localhost:44370/ludo/{id}/getwinner
+ http://ludoapp.azurewebsites.net/ludo/{id}/getwinner
